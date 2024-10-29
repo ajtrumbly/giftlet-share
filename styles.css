@@ -1,1 +1,72 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.card-details {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 12px;
+}
+
+.download-button {
+    background: #48359C;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: opacity 0.2s;
+}
+
+.download-button:hover {
+    opacity: 0.9;
+}
+
+h1 {
+    color: #1d1d1f;
+    margin: 10px 0;
+}
+
+.store-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.balance {
+    font-size: 36px;
+    font-weight: 700;
+    color: #48359C;
+    margin: 10px 0;
+}
