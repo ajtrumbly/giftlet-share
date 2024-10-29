@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "US2A87JDL4.com.Trumbly.Austin.Giftlet",
-                "paths": ["/share/*"]
+                "paths": ["/giftlet-share/share/*"]
             }
         ]
     }
