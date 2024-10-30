@@ -1,10 +1,14 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
             {
                 "appID": "US2A87JDL4.com.Trumbly.Austin.Giftlet",
-                "paths": ["/giftlet-share/share/*"]
+                "components": [
+                    {
+                        "/": "/giftlet-share/share*",
+                        "comment": "Matches any URL with a path that starts with /giftlet-share/share"
+                    }
+                ]
             }
         ]
     }
